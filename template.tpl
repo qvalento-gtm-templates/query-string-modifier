@@ -134,8 +134,9 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const log = require('logToConsole');
 const getUrl = require('getUrl');
 const copyFromDataLayer = require('copyFromDataLayer');
-log(data);
-let url = data.location;
+const encodeUri = require('encodeUri');
+
+let url = encodeUri(data.location);
 
 switch(data.location){
   case 'page':
