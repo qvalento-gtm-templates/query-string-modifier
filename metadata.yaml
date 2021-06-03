@@ -1,5 +1,5 @@
 homepage: "https://github.com/qvalento-gtm-templates/"
 documentation: "https://github.com/qvalento-gtm-templates/query-string-modifier/"
 versions:
-  - sha: f7f1f0e4bf18cc0572dc94f3accaf91af9368f39
+  - sha: 7efb8428c60261526fa5a86208ffe34a9ca5ed8b
     changeNotes: Initial release.
